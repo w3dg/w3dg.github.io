@@ -4,6 +4,8 @@ draft = false
 title = 'CV'
 +++
 
-View my work.
+I am currently a final year student majoring in Computer Science and Engineering.
+
+View my work on [GitHub](https://github.com/w3dg).
 
 - [Resume](https://drive.google.com/file/d/1l_9CCnxTXcZ0Ud5aLCAFvBu-3nv2W0jo/view)
