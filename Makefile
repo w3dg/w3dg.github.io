@@ -1,8 +1,9 @@
 serve:
 	hugo server --buildDrafts
-build:
-	hugo build -d docs --minify
 content:
-	hugo new content <SECTIONNAME>/<FILENAME>.<FORMAT>
+	@echo Try any of the following:
+	@echo hugo new content content/posts/filename.md
+	@echo hugo new content content/posts/dirname/index.md
+	@echo hugo new content content/page.md
 theme-update:
 	hugo mod get -u
