@@ -17,10 +17,11 @@ title = "Debopam Gupta"
 [params.author]
   name = "Debopam Gupta"
   email = "w3dg@duck.com"
-  # image = "s/assets/pfp.png"
+  # image = "/assets/img/pfp.png"
+  image = "https://github.com/w3dg.png"
   imageQuality = 96
   headline = "Software dev & CS student. Exploring systems, the web, and sustainable tech."
-  # bio = "A little bit about you" # displayed in article footers
+  bio = "Another tinkerer." # displayed in article footers
   links = [
     { email = "mailto:w3dg@duck.com" },
     # { link = "https://link-to-some-website.com/" },

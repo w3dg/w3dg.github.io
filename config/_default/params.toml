@@ -54,7 +54,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layout = "profile" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/pfp.jpg" # used in: hero, and card
   showRecent = true
-  showRecentItems = 5
+  showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = "/posts/"
   cardView = false
@@ -92,7 +92,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showAuthorsBadges = false
   showWordCount = true
   sharingLinks = [ "twitter", "bluesky", "mastodon"]
-  showZenMode = false
+  showZenMode = true
 
 [list]
   showHero = false

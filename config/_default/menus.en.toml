@@ -11,29 +11,34 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "Blog"
- pageRef = "posts"
- weight = 1
+ name = "Home"
+ pageRef = "/"
+ weight = 10
+
+ [[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
 
 [[main]]
  name = "Now"
  pageRef = "now"
- weight = 2
+ weight = 30
 
 [[main]]
  name = "Contact"
  pageRef = "contact"
- weight = 3
+ weight = 40
 
  [[main]]
   name = "Work"
   pageRef = "work"
-  weight = 4
+  weight = 50
 
  [[main]]
    name = "CV"
    pageRef = "cv"
-   weight = 10
+   weight = 60
 
 
 
