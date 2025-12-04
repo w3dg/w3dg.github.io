@@ -1,5 +1,5 @@
 serve:
-	hugo server --buildDrafts
+	hugo server -D
 content:
 	@echo Try any of the following:
 	@echo hugo new content content/posts/filename.md
