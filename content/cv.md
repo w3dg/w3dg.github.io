@@ -4,8 +4,30 @@ draft = false
 title = 'CV'
 +++
 
-I am currently a final year student majoring in Computer Science and Engineering.
+## Education
 
-View my work on [GitHub](https://github.com/w3dg).
+**Kalinga Institute of Industrial Technology**
 
-- [Resume](https://drive.google.com/file/d/1l_9CCnxTXcZ0Ud5aLCAFvBu-3nv2W0jo/view)
+B.Tech in Computer Science and Engineering  _Sep 2022 - June 2026(expected)_
+
+**St Joan's School**
+
+12th ISC PCM with Computer Science, 10th ICSE
+
+---
+
+## Projects
+
+See my [works](/work) page and [GitHub](https://github.com/w3dg) for list of projects.
+
+---
+
+## Technical Skills
+
+- Programming Languages: _TypeScript, JavaScript, Python, SQL, Java, C_
+- Technologies: _React.js, Next.js, Node.js, Express.js, Bootstrap, TailwindCSS, ORMs, PostgreSQL, MongoDB, Docker_
+- Tools/Others: _Git, Linux, Bash scripting_
+
+Here is my [latest resume](https://drive.google.com/file/d/1zAPcy8L3SI-mhGGflc3lLaA7l44-kDF-/view)
+
+---
