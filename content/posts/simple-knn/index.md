@@ -3,6 +3,7 @@ date = '2025-03-06T12:55:42+05:30'
 draft = false
 title = 'Simple KNN Implementation from Scratch'
 summary = 'To define KNN from scratch'
+tags = ['ai', 'ml', 'machine learning', 'knn', 'algorithms']
 +++
 
 {{< katex >}}

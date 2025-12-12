@@ -3,6 +3,7 @@ date = '2024-11-29T12:55:42+05:30'
 draft = false
 title = 'Abstractions in Computing'
 summary = 'A guide to how I manage dotfiles on my system as a developer.'
+tags = ['computing', 'abstraction']
 +++
 
 > This is sort of a summary and thoughts on what I have learnt about OS, from the amazing book OSTEP - Operating Systems, Three easy pieces. [See the online version here](https://pages.cs.wisc.edu/~remzi/OSTEP/).

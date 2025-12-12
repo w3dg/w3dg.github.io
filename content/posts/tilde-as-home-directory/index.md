@@ -3,6 +3,7 @@ date = '2025-05-15T12:55:42+05:30'
 draft = false
 title = 'Why Tilde was chosen as the home directory'
 summary = 'To find the origins of ~, we dive into the history of computing'
+tags = ['computing', 'history']
 +++
 ## Introduction
 

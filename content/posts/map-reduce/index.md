@@ -3,6 +3,7 @@ date = '2025-10-12T12:55:42+05:30'
 draft = false
 title = 'MapReduce'
 summary = 'Implementing a simple version of MapReduce'
+tags = ['distributed systems', 'Map Reduce', 'Go']
 +++
 
 {{< katex >}}

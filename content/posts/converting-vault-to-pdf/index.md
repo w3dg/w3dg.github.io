@@ -3,6 +3,7 @@ date = '2025-06-02T12:55:42+05:30'
 draft = false
 title = 'Converting my Obsidian Vault to PDFs'
 summary = 'How I export my Obsidian vault to PDFs using Pandoc and (more recently) Go.'
+tags = ['knowledge management', 'obsidian', 'go']
 +++
 
 {{< katex >}}

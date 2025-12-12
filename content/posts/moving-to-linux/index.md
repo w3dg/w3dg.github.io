@@ -3,6 +3,7 @@ date = '2024-05-02T12:55:42+05:30'
 draft = false
 title = 'About time! Going all in on Linux!'
 summary = 'Transitioning from Windows to Linux'
+tags = ['linux']
 +++
 
 > It takes courage to grow up and become who you really are.

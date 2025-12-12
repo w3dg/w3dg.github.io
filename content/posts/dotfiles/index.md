@@ -3,6 +3,7 @@ date = '2024-01-22T12:55:42+05:30'
 draft = false
 title = 'Dotfiles and How I manage them'
 summary = 'A guide to how I manage dotfiles on my system as a developer.'
+tags = ['dotfiles', 'shell scripting', 'personalization']
 +++
 
 ## Introduction

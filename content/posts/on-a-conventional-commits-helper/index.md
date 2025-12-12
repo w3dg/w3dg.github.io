@@ -3,6 +3,7 @@ date = '2025-10-23T12:55:42+05:30'
 draft = false
 title = 'Writing a Conventional Commits Helper'
 summary = 'Writing a conventional commits helper using shell scripts and utilities. Why again? Because I can and like the simplicity.'
+tags = ['conventional commits', 'git', 'shell scripting']
 +++
 
 ## Why write another one?

@@ -3,6 +3,7 @@ date = '2025-01-25T12:55:42+05:30'
 draft = false
 title = 'Building with AI SDK - Part 1'
 summary = "We explore how to interact with LLMs programmatically through Vercel's AI SDK"
+tags = ['ai', 'llms', 'vercel']
 +++
 
 The [Vercel AI SDK](https://sdk.vercel.ai/) opens up exciting possibilities for building smarter and more interactive applications. Whether you\'re exploring AI-powered features or integrating seamless response streaming, this SDK has you covered. In this post, we'll dive into the basics of initializing the SDK, working with [Groq](https://groqcloud.com), although you can use sopmething more popular like OpenAI or Gemini, and demonstrating how to generate and stream responses effectively. Let\'s get started! 

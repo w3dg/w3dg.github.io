@@ -3,6 +3,7 @@ date = '2025-01-19T12:55:42+05:30'
 draft = false
 title = 'Backup Script'
 summary = 'Taking backups of my machine with help from a script'
+tags = ['backups', 'mac', 'linux', 'shell scripting']
 +++
 
 I keep a backup somewhat regularly and especially when I want to wipe and reinstall my OS once in a while (although it\'s very rare, and mostly I stick to Ubuntu distributions).

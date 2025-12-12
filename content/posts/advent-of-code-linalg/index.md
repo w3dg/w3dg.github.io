@@ -4,6 +4,7 @@ date = '2024-12-27T12:55:42+05:30'
 draft = false
 title = 'Linear Algebra pops up in Advent of Code'
 summary = 'Solving Advent of Code Day 13 with Linear Algebra and Numpy'
+tags = ['linear algebra', 'advent of code']
 +++
 
 {{< katex >}}
@@ -34,7 +35,7 @@ $$
 
 Now we just have to find solutions to the equation aka, solve for *a* and *b.*
 
-Suppose we take the first two coefficients from Button A (here, 94 and 34), as *ax* and *ay* respectively, and similarly pull out *bx* and *by* from the Button B (here, 22 and 67). We take the prize's x and y coordinates as *px* and *py* respectively. 
+Suppose we take the first two coefficients from Button A (here, 94 and 34), as *ax* and *ay* respectively, and similarly pull out *bx* and *by* from the Button B (here, 22 and 67). We take the prize's x and y coordinates as *px* and *py* respectively.
 
 ```python
 a, b, prize = m.split("\n")
@@ -78,8 +79,8 @@ $$
 R = np.array([px, py])
 ```
 
-This will allow us to solve for the equation in the following formulation as matrix multiplications, where `r1` and `r2` are the actual solutions to the problem of linear equations with the given coefficient matrix. 
-<!-- 
+This will allow us to solve for the equation in the following formulation as matrix multiplications, where `r1` and `r2` are the actual solutions to the problem of linear equations with the given coefficient matrix.
+<!--
 $$
 \begin{bmatrix}
 ax & bx \\
@@ -96,7 +97,7 @@ py
 \end{bmatrix}
 $$ -->
 
-We can compute the ***inverse*** if the coefficient matrix is *not singular*, i.e. the *determinant* is not zero, and then multiply it to get the result. The next step will hence look like, 
+We can compute the ***inverse*** if the coefficient matrix is *not singular*, i.e. the *determinant* is not zero, and then multiply it to get the result. The next step will hence look like,
 
 <!-- $$
 \begin{bmatrix}
@@ -114,7 +115,7 @@ ay & by
 \end{bmatrix}^{-1}
 $$ -->
 
-This same operation is taken care of by `numpy` for us in the `numpy.linalg` module. It exposes a `solve` function that can take in our coefficient matrix and result matrix and then give the result matrix, i.e. `r1` and `r2` 
+This same operation is taken care of by `numpy` for us in the `numpy.linalg` module. It exposes a `solve` function that can take in our coefficient matrix and result matrix and then give the result matrix, i.e. `r1` and `r2`
 
 ```python
 soln = np.linalg.solve(M, R)
@@ -138,7 +139,7 @@ if np.all(M @ soln == R):
 
 Two things to unpack here, the special `@` is provided/overloaded by numpy to perform matrix multiplications seamlessly, and hence we can quickly do another matrix multiplication according to our original formulation to see if the inverse is actually satisfying the prize after rounding off. If they are, we can add it as part of the solution.
 
-For adding to the solution, we are told to calculate the *cost* which is just 3 times the button A and 1 times the button B that we push and as many tokens are spent. 
+For adding to the solution, we are told to calculate the *cost* which is just 3 times the button A and 1 times the button B that we push and as many tokens are spent.
 
 We repeat the above for each machine in the input. Calculate the solutions using matrix inverse, round the values, cross-check to see if that still satisies, and then add to the running total.
 

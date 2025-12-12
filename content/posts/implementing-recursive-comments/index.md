@@ -3,6 +3,7 @@ date = '2024-12-01T12:55:42+05:30'
 draft = false
 title = 'Recursive Comments'
 summary = 'Implementing recursive comments in React'
+tags = ['recursion', 'react']
 +++
 
 ## What is recursion?

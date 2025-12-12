@@ -46,10 +46,10 @@
 #  name = "Parent"
 #  weight = 20
 
-#[[main]]
+# [[main]]
 #  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
+#  parent = "posts"
+#  pageRef = "sub"
 #  weight = 20
 
 #[[main]]
@@ -85,10 +85,10 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "Posts by Tags"
+  pageRef = "tags"
+  weight = 10
 
 # [[footer]]
 #   name = "Categories"

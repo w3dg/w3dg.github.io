@@ -3,6 +3,7 @@ date = '2025-05-12T12:55:42+05:30'
 draft = false
 title = 'GeoDNS Load Balancing'
 summary = 'How Load Balancing with GeoDNS works to ensure speedy delivery.'
+tags = ['dns', 'geodns', 'load balancing']
 +++
 
 ![](./lb.png)

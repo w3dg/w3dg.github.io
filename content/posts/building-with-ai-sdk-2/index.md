@@ -3,6 +3,7 @@ date = '2025-02-15T12:55:42+05:30'
 draft = false
 title = 'Building with AI SDK 2'
 summary = "We explore how to generate structured outputs with LLMs programmatically through Vercel's AI SDK"
+tags = ['ai', 'llms', 'vercel']
 +++
 ## Introduction
 

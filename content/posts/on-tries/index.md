@@ -4,4 +4,5 @@ draft = false
 title = 'On Tries'
 externalUrl = "https://wiki.w3dg.workers.dev/notes/dsa/tries"
 summary = "It's pronounced 'try'"
+tags = ['data structures']
 +++

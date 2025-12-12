@@ -3,6 +3,7 @@ date = '2024-12-29T12:55:42+05:30'
 draft = false
 title = 'Profiling zsh and Speeding up my shell'
 summary = 'I fix slow startup, investigate some causes and discuss some alternatives.'
+tags = ['dotfiles', 'shell scripting', 'zsh']
 +++
 
 ## Measure, measure, measure
