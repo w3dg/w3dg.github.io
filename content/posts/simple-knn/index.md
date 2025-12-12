@@ -5,7 +5,7 @@ title = 'Simple KNN Implementation from Scratch'
 summary = 'To define KNN from scratch'
 +++
 
-# Introduction
+{{< katex >}}
 
 [K Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) is a *non-parametric*, *unsupervised* machine learning algorithm. It is a &ldquo;lazy learner&rdquo; algorithm, that means we do not need to train anything at all. It is a simple algorithm that stores all available cases and classifies new cases based on a similarity measure.
 

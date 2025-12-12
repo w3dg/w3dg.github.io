@@ -5,6 +5,7 @@ title = 'MapReduce'
 summary = 'Implementing a simple version of MapReduce'
 +++
 
+{{< katex >}}
 
 ## Overview of MapReduce
 
@@ -21,12 +22,11 @@ workers, intermediate files, reduce workers, and final output files." />
 > The article below and the code is written by looking at the lab requirements as per [MIT 6.824's Lab 1](https://pdos.csail.mit.edu/6.824/labs/lab-mr.html). You can find the original MapReduce Paper [here](http://research.google.com/archive/mapreduce-osdi04.pdf). A helpful lecture video from the same MIT course is on [YouTube](https://www.youtube.com/watch?v=cQP8WApzIQQ&t=3004s&pp=ygUNbWFwcmVkdWNlIG1pdA%3D%3D). A helpful Computerphile video on the same topic is also on [YouTube](https://www.youtube.com/watch?v=cvhKoniK5Uo).
 
 A crude and simple implentation using Go channels is here, however the original problem set goes about implenting it using IPC fasion using RPC to communicate between workers.
-</Callout>
 
 MapReduce consists of the following programming model:
 
-- A `Map()` function that **emits** intermediate $(key, value)$ pairs to be picked up by the reduce phase later.
-- A `Reduce()` function that **collects** and aggregates the information passed from the `map()` grouped by the $key$.
+- A `Map()` function that **emits** intermediate `(key, value)` pairs to be picked up by the reduce phase later.
+- A `Reduce()` function that **collects** and aggregates the information passed from the `map()` grouped by the `key`.
 - An implicit `Shuffle()` procedure takes care of grouping the intermediate emitted values and group them to the correct reducer.
 - You can also specify a `Combine()` function that transforms the data similar to a `Reduce()` but is executed on the Mapper before being sent as intermediate data to the actual reduce workers. Often times, this will end up being the same function as `Reduce()`.
 
@@ -36,7 +36,7 @@ With this programming model, several tasks that deal with distributed and large 
 
 We can model this as reading the contents of the document and emitting `1` for each time a word is encountered.
 
-On the reducer side, we can group the values by the word from the document (the $key$) and sum up the number of occurences.
+On the reducer side, we can group the values by the word from the document (the `key`) and sum up the number of occurences.
 
 <details>
 <summary>Pseudocode</summary>
@@ -85,9 +85,8 @@ reduce(key, line):
 ```
 </details>
 
-<Callout muted="true">
-More examples like count of url access frequency, reverse web-link graph, distributed sort etc. are given in the [original paper](http://research.google.com/archive/mapreduce-osdi04.pdf).
-</Callout>
+> More examples like count of url access frequency, reverse web-link graph, distributed sort etc. are given in the [original paper](http://research.google.com/archive/mapreduce-osdi04.pdf).
+
 
 ## My MapReduce Implementation in Go
 
