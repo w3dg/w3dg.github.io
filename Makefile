@@ -7,7 +7,7 @@ content:
 	@echo hugo new content content/posts/filename.md
 	@echo hugo new content content/posts/dirname/index.md
 	@echo hugo new content content/page.md
-commit-and-deploy:
+push-and-deploy:
 	git switch main # ensure on main branch
 	rm -rf public/ &2>/dev/null # delete public folder if there, it will be generated on the actions.
 	git push origin main
