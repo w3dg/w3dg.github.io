@@ -18,7 +18,7 @@ B.Tech in Computer Science and Engineering  _Sep 2022 - June 2026(expected)_
 
 ## Projects
 
-See my [works](/work) page and [GitHub](https://github.com/w3dg) for list of projects.
+See my [works](/work) page and [GitHub](https://GitHub.com/w3dg) for list of projects.
 
 ---
 

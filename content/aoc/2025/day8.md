@@ -152,12 +152,12 @@ With these set up, we should get started and parse our inputs to be in our new u
 
 As we need the shortest distances first to join them together, it will be helpful, if we now pick the pair of points based on their distance from a heap.
 
-I am using [zyedidia/generic/heap](github.com/zyedidia/generic/heap) as a go-to heap implementation.
+I am using [zyedidia/generic/heap](GitHub.com/zyedidia/generic/heap) as a go-to heap implementation.
 
 ```go
 // import before
 import (
-    "github.com/zyedidia/generic/heap"
+    "GitHub.com/zyedidia/generic/heap"
 )
 // ...
 
@@ -276,5 +276,5 @@ if aFind == bFind {
 }
 ```
 
-For the entire code, you can [visit](https://github.com/w3dg/advent-of-code/blob/main/2025/day8/x.go) the solutions on my [GitHub](https://github.com/w3dg).
+For the entire code, you can [visit](https://GitHub.com/w3dg/advent-of-code/blob/main/2025/day8/x.go) the solutions on my [GitHub](https://github.com/w3dg).
 
