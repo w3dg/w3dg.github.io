@@ -1,6 +1,5 @@
 +++
 date = '2025-12-12T20:39:06+05:30'
-draft = true
 title = 'Advent of Code'
 +++
 
