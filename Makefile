@@ -14,3 +14,10 @@ push-and-deploy:
 	# wait for actions to complete and publish to gh-pages branch
 theme-update:
 	hugo mod get -u
+
+help:
+	@echo "make serve           - Run the local hugo server in draft mode"
+	@echo "make content         - Create a new content file"
+	@echo "make push-and-deploy - Push final committed code to Github for deployment"
+	@echo "make theme-update    - Update theme with hugo submodule"
+	@echo "make help            - Display this help message"
