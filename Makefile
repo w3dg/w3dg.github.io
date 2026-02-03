@@ -9,7 +9,7 @@ content:
 	@echo hugo new content content/page.md
 push-and-deploy:
 	git switch main # ensure on main branch
-	rm -rf public/ &2>/dev/null # delete public folder if there, it will be generated on the actions.
+	rm -rf public resources/ &2>/dev/null # delete public and generated resources folder if there, it will be generated on the actions.
 	git push origin main
 	# wait for actions to complete and publish to gh-pages branch
 theme-update:

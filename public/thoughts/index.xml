@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Debopam Gupta</title>
+    <link>http://localhost:1313/thoughts/</link>
+    <description>Recent content in Thoughts on Debopam Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>w3dg@duck.com (Debopam Gupta)</managingEditor>
+    <webMaster>w3dg@duck.com (Debopam Gupta)</webMaster>
+    <copyright>© 2026 Debopam Gupta</copyright>
+    <lastBuildDate>Sat, 06 Dec 2025 20:43:48 +0530</lastBuildDate><atom:link href="http://localhost:1313/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/thoughts/first/</link>
+      <pubDate>Sat, 06 Dec 2025 20:43:48 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/thoughts/first/</guid>
+      <description>&lt;p&gt;First Thought&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

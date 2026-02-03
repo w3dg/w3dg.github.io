@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structures on Debopam Gupta</title>
+    <link>http://localhost:1313/tags/data-structures/</link>
+    <description>Recent content in Data Structures on Debopam Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>w3dg@duck.com (Debopam Gupta)</managingEditor>
+    <webMaster>w3dg@duck.com (Debopam Gupta)</webMaster>
+    <copyright>© 2026 Debopam Gupta</copyright>
+    <lastBuildDate>Fri, 12 Dec 2025 20:37:12 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/data-structures/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 8, 2025: The Playground</title>
+      <link>http://localhost:1313/aoc/2025/day8/</link>
+      <pubDate>Fri, 12 Dec 2025 20:37:12 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/aoc/2025/day8/</guid>
+      <description>Let us connect some boxes together.</description>
+      
+    </item>
+    
+    <item>
+      <title>On Tries</title>
+      <link>http://localhost:1313/posts/on-tries/</link>
+      <pubDate>Thu, 04 Sep 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/on-tries/</guid>
+      <description>It&amp;rsquo;s pronounced &amp;rsquo;try&#39;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

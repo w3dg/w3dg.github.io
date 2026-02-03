@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Debopam Gupta</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Debopam Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>w3dg@duck.com (Debopam Gupta)</managingEditor>
+    <webMaster>w3dg@duck.com (Debopam Gupta)</webMaster>
+    <copyright>© 2026 Debopam Gupta</copyright>
+    <lastBuildDate>Fri, 19 Dec 2025 17:52:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo and GitHub Pages</title>
+      <link>http://localhost:1313/posts/hugo-and-gh-pages/</link>
+      <pubDate>Fri, 19 Dec 2025 17:52:00 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/hugo-and-gh-pages/</guid>
+      <description>I&amp;rsquo;ve decided that I do not need React or Next for a blog.</description>
+      
+    </item>
+    
+    <item>
+      <title>Writing a Conventional Commits Helper</title>
+      <link>http://localhost:1313/posts/on-a-conventional-commits-helper/</link>
+      <pubDate>Thu, 23 Oct 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/on-a-conventional-commits-helper/</guid>
+      <description>Writing a conventional commits helper using shell scripts and utilities. Why again? Because I can and like the simplicity.</description>
+      
+    </item>
+    
+    <item>
+      <title>MapReduce</title>
+      <link>http://localhost:1313/posts/map-reduce/</link>
+      <pubDate>Sun, 12 Oct 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/map-reduce/</guid>
+      <description>Implementing a simple version of MapReduce</description>
+      
+    </item>
+    
+    <item>
+      <title>On Tries</title>
+      <link>http://localhost:1313/posts/on-tries/</link>
+      <pubDate>Thu, 04 Sep 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/on-tries/</guid>
+      <description>It&amp;rsquo;s pronounced &amp;rsquo;try&#39;</description>
+      
+    </item>
+    
+    <item>
+      <title>Converting my Obsidian Vault to PDFs</title>
+      <link>http://localhost:1313/posts/converting-vault-to-pdf/</link>
+      <pubDate>Mon, 02 Jun 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/converting-vault-to-pdf/</guid>
+      <description>How I export my Obsidian vault to PDFs using Pandoc and (more recently) Go.</description>
+      
+    </item>
+    
+    <item>
+      <title>Why Tilde was chosen as the home directory</title>
+      <link>http://localhost:1313/posts/tilde-as-home-directory/</link>
+      <pubDate>Thu, 15 May 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/tilde-as-home-directory/</guid>
+      <description>To find the origins of ~, we dive into the history of computing</description>
+      
+    </item>
+    
+    <item>
+      <title>GeoDNS Load Balancing</title>
+      <link>http://localhost:1313/posts/geo-dns-load-balancing/</link>
+      <pubDate>Mon, 12 May 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/geo-dns-load-balancing/</guid>
+      <description>How Load Balancing with GeoDNS works to ensure speedy delivery.</description>
+      
+    </item>
+    
+    <item>
+      <title>Simple KNN Implementation from Scratch</title>
+      <link>http://localhost:1313/posts/simple-knn/</link>
+      <pubDate>Thu, 06 Mar 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/simple-knn/</guid>
+      <description>To define KNN from scratch</description>
+      
+    </item>
+    
+    <item>
+      <title>Building with AI SDK 2</title>
+      <link>http://localhost:1313/posts/building-with-ai-sdk-2/</link>
+      <pubDate>Sat, 15 Feb 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/building-with-ai-sdk-2/</guid>
+      <description>We explore how to generate structured outputs with LLMs programmatically through Vercel&amp;rsquo;s AI SDK</description>
+      
+    </item>
+    
+    <item>
+      <title>Building with AI SDK - Part 1</title>
+      <link>http://localhost:1313/posts/building-with-ai-sdk-1/</link>
+      <pubDate>Sat, 25 Jan 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/building-with-ai-sdk-1/</guid>
+      <description>We explore how to interact with LLMs programmatically through Vercel&amp;rsquo;s AI SDK</description>
+      
+    </item>
+    
+    <item>
+      <title>Backup Script</title>
+      <link>http://localhost:1313/posts/backup-script/</link>
+      <pubDate>Sun, 19 Jan 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/backup-script/</guid>
+      <description>Taking backups of my machine with help from a script</description>
+      
+    </item>
+    
+    <item>
+      <title>Profiling zsh and Speeding up my shell</title>
+      <link>http://localhost:1313/posts/profiling-and-speeding-up-shell/</link>
+      <pubDate>Sun, 29 Dec 2024 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/profiling-and-speeding-up-shell/</guid>
+      <description>I fix slow startup, investigate some causes and discuss some alternatives.</description>
+      
+    </item>
+    
+    <item>
+      <title>Linear Algebra pops up in Advent of Code</title>
+      <link>http://localhost:1313/posts/advent-of-code-linalg/</link>
+      <pubDate>Fri, 27 Dec 2024 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/advent-of-code-linalg/</guid>
+      <description>Solving Advent of Code Day 13 with Linear Algebra and Numpy</description>
+      
+    </item>
+    
+    <item>
+      <title>Recursive Comments</title>
+      <link>http://localhost:1313/posts/implementing-recursive-comments/</link>
+      <pubDate>Sun, 01 Dec 2024 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/implementing-recursive-comments/</guid>
+      <description>Implementing recursive comments in React</description>
+      
+    </item>
+    
+    <item>
+      <title>Abstractions in Computing</title>
+      <link>http://localhost:1313/posts/abstractions-in-computing/</link>
+      <pubDate>Fri, 29 Nov 2024 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/abstractions-in-computing/</guid>
+      <description>A guide to how I manage dotfiles on my system as a developer.</description>
+      
+    </item>
+    
+    <item>
+      <title>About time! Going all in on Linux!</title>
+      <link>http://localhost:1313/posts/moving-to-linux/</link>
+      <pubDate>Thu, 02 May 2024 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/moving-to-linux/</guid>
+      <description>Transitioning from Windows to Linux</description>
+      
+    </item>
+    
+    <item>
+      <title>Dotfiles and How I manage them</title>
+      <link>http://localhost:1313/posts/dotfiles/</link>
+      <pubDate>Mon, 22 Jan 2024 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/dotfiles/</guid>
+      <description>A guide to how I manage dotfiles on my system as a developer.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

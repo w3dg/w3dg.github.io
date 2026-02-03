@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obsidian on Debopam Gupta</title>
+    <link>http://localhost:1313/tags/obsidian/</link>
+    <description>Recent content in Obsidian on Debopam Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>w3dg@duck.com (Debopam Gupta)</managingEditor>
+    <webMaster>w3dg@duck.com (Debopam Gupta)</webMaster>
+    <copyright>© 2026 Debopam Gupta</copyright>
+    <lastBuildDate>Mon, 02 Jun 2025 12:55:42 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Converting my Obsidian Vault to PDFs</title>
+      <link>http://localhost:1313/posts/converting-vault-to-pdf/</link>
+      <pubDate>Mon, 02 Jun 2025 12:55:42 +0530</pubDate>
+      <author>w3dg@duck.com (Debopam Gupta)</author>
+      <guid>http://localhost:1313/posts/converting-vault-to-pdf/</guid>
+      <description>How I export my Obsidian vault to PDFs using Pandoc and (more recently) Go.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
