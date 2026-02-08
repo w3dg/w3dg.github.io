@@ -56,6 +56,12 @@
  pageRef = "aoc"
  # weight = 20
 
+[[main]]
+ name = "Guides"
+ parent = "Other"
+ pageRef = "guides"
+ # weight = 20
+
 # [[main]]
 #  name = "example sub-menu 1"
 #  parent = "Blog"

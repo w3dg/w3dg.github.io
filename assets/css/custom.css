@@ -1,4 +1,9 @@
 @font-face {
+    font-family: "DM Sans";
+    src: url('/fonts/DMSans-Variable.ttf') format("truetype");
+}
+
+@font-face {
     font-family: "Merriweather";
     src: url('/fonts/Merriweather-Variable.ttf') format("truetype");
 }
@@ -10,6 +15,7 @@
 
 :root {
   --serif: "Merriweather", serif;
+  --sans: "DM Sans", sans-serif;
   --mono: "Source Code Pro", monospace;
 }
 
@@ -20,8 +26,8 @@ html {
   font-style: normal;
 }
 
-:is(h1, h2, h3, h4, h5, h6) {
-  font-family: var(--serif);
+:is(h1, h2, h3, h4, h5, h6), .main-menu {
+  font-family: var(--sans);
   text-wrap: balance;
 }
 
@@ -32,10 +38,17 @@ html {
 
 :is(blockquote) {
   font-family: var(--serif);
-  font-size: 1.2rem;
   border: 0;
 }
 
 :is(pre, code) {
   font-family: var(--mono);
+}
+
+.article-content li {
+  margin: 0.1rem;
+}
+
+.article-content li p {
+  margin: 0.8rem;
 }
