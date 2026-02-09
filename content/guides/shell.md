@@ -162,6 +162,90 @@ find -maxdepth 3 -type f \
 	| sort | uniq -c | sort -rn -k1,1 | head -n 10
 ```
 
+That should give you some foothold to start. Remember the possibilities are endless.
+
+
+## Scripting
+
+You would probably want to learn a bit of Bash scripting. It can be as simple as a loop with a counter or a simple loop over the files in the directory to execute some command on each of them.
+
+### Conditionals
+
+`if` - tests for some condition. There are a few different ways to test a condition. There is `test` command and `[` binary. These two are the same program with the `[` binary requiring the additional closing `]` as its last argument. There is also the , builtin `[[` to bash. Almost all of these accept the same kind of syntax. 
+
+I will suggest reading through `man [` for all the syntaxes to form **AND**, **OR**, **GREATER THAN**, **LESS THAN**, **EQUALS** and all the other familiar conditions you want alike. You also have the ability to check if a given file path exists, if a variable is unset or empty, and more.
+
+Here is an example to understand the syntax with `if`, `then`, `else` and `elif`.
+
+```bash
+a=1
+b=2
+c=3
+
+if [ $a -gt $b -a $b -gt $c ]; then
+        echo "$a is greatest"
+elif [ $b -gt $a -a $a -gt $c ]; then
+        echo "$b is greatest"
+else
+        echo "$c is greatest"
+fi
+
+# Output
+# 3 is greatest
+```
+
+### Loops
+
+`for` and `while` let you loop over the parameters you give as input.
+
+```bash
+for i in 1 2 3 4 5; do echo $i; done
+
+it=1
+while [ $it -lt 5 ]; do echo $it; it=$((it+1)); done
+```
+
+The input can be any command substitution or globs.
+
+```bash
+for i in $(seq 1 10); do echo $i; done # remember seq generates sequence of numbers
+# 1
+# 2
+# 3
+# ...
+# 10
+
+for f in ./* ; do echo $f; done
+# Output
+# ./archetypes
+# ./assets
+# ...
+# ./themes
+
+for f in ./**/*md ; do echo $f; done
+# ./archetypes/default.md
+# ./content/aoc/2024/day13.md
+# ...
+# ./content/work.md
+```
+
+### Expansions
+
+Look at [Expansion and Brace Expansions](https://man7.org/linux/man-pages/man1/bash.1.html#EXPANSION) in Bash and how you can use them in loops, `cp`, `mv` etc.
+
+Here are some examples.
+
+```bash
+# copy file.mp3 to file.mp3.bak
+cp file.mp3{, .bak}
+
+# say hi 100 times
+for i in {1..100}; do echo hi $i; done
+
+# make 100 directories at once
+mkdir dir{1..100}
+```
+
 ---
 
 Still a work in progress.
@@ -169,3 +253,4 @@ Still a work in progress.
 Leave any to me feedback on [Bluesky](https://blu.ski/@w3dg) or use the share button below to share it on to Bluesky.
 
 [^1]: The command pipeline is taken from the [course](https://missing.csail.mit.edu/2026/course-shell/) on Missing Semester from MIT. You can find the video and dissect the parts building up to the full command.
+
