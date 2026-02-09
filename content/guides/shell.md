@@ -3,6 +3,7 @@ date = '2026-02-07T14:52:04+05:30'
 draft = false
 title = "The command line isn't scary, its damn powerful."
 summary = "Most people when starting out in their tech career tend to overlook the possibilities that command line offers. Here's a guide from me on the what and why you should know to be decent at the command line."
+tags = ['Guide', 'CLI', 'Unix', 'Bash', 'Shell Scripting']
 
 +++
 
