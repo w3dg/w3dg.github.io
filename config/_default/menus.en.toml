@@ -62,6 +62,12 @@
  pageRef = "guides"
  # weight = 20
 
+[[main]]
+ name = "Papershelf"
+ parent = "Other"
+ pageRef = "papershelf"
+ # weight = 20
+
 # [[main]]
 #  name = "example sub-menu 1"
 #  parent = "Blog"

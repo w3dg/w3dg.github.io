@@ -1,26 +1,26 @@
 @font-face {
-    font-family: "DM Sans";
-    src: url('/fonts/DMSans-Variable.ttf') format("truetype");
+    font-family: "Roboto";
+    src: url('/fonts/Roboto-VariableFont.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: "Merriweather";
-    src: url('/fonts/Merriweather-Variable.ttf') format("truetype");
+    font-family: "Roboto Serif";
+    src: url('/fonts/RobotoSerif-VariableFont_GRAD,opsz,wdth,wght.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: "Source Code Pro";
-    src: url('/fonts/SourceCodePro-Variable.ttf') format("truetype");
+    font-family: "Roboto Mono";
+    src: url('/fonts/RobotoMono-VariableFont_wght.ttf') format("truetype");
 }
 
 :root {
-  --serif: "Merriweather", serif;
-  --sans: "DM Sans", sans-serif;
-  --mono: "Source Code Pro", monospace;
+  --serif: "Roboto Serif", serif;
+  --sans: "Roboto", sans-serif;
+  --mono: "Roboto Mono", monospace;
 }
 
 html {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;

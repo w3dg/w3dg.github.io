@@ -174,7 +174,7 @@ You would probably want to learn a bit of Bash scripting. It can be as simple as
 
 `if` - tests for some condition. There are a few different ways to test a condition. There is `test` command and `[` binary. These two are the same program with the `[` binary requiring the additional closing `]` as its last argument. There is also the , builtin `[[` to bash. Almost all of these accept the same kind of syntax. 
 
-I will suggest reading through `man [` for all the syntaxes to form **AND**, **OR**, **GREATER THAN**, **LESS THAN**, **EQUALS** and all the other familiar conditions you want alike. You also have the ability to check if a given file path exists, if a variable is unset or empty, and more.
+I will suggest reading through `man [` for all the syntaxes to form `AND`, `OR`, `GREATER THAN`, `LESS THAN`, `EQUALS` and all the other familiar conditions you want alike. You also have the ability to check if a given file path exists, if a variable is unset or empty, and more.
 
 Here is an example to understand the syntax with `if`, `then`, `else` and `elif`.
 

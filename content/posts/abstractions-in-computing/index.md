@@ -2,7 +2,7 @@
 date = '2024-11-29T12:55:42+05:30'
 draft = false
 title = 'Abstractions in Computing'
-summary = 'A guide to how I manage dotfiles on my system as a developer.'
+summary = 'Hidden complexity is everywhere.'
 tags = ['computing', 'abstraction']
 +++
 
