@@ -1,5 +1,6 @@
 +++
 date = '2025-01-19T12:55:42+05:30'
+lastmod = '2026-03-01T10:52:43+05:30'
 draft = false
 title = 'Backup Script'
 summary = 'Taking backups of my machine with help from a script'
@@ -144,7 +145,7 @@ gpg --output destination --decrypt sourcefile.gpg
 
 So for example on my archive
 
-```bash 
+```bash
 $ EXTRACTED=backup-test-2025-01-19T00-34-31.tar.gz
 $ gpg --output $EXTRACTED --decrypt $EXTRACTED.gpg
 gpg: AES256.CFB encrypted data
@@ -156,3 +157,28 @@ Then extract the \`tar.gz\` file normally,
 ```bash
 tar xvf $EXTRACTED
 ```
+
+## `rsync` it over to external source
+
+It is very likely that you'll store backups on a separate disk. Otherwise what is good of that backup? If your drive fails the backup will go with it.
+
+In addition to all that steps above, I use `rsync` to copy over the backup file to an external drive which I mount.
+
+```bash
+use_rsync() {
+    read -p "Enter file path to copy the backup externally to: " -r DEST;
+    mkdir -p "$DEST";
+    rsync --archive --human-readable --progress --partial "$BACKUP" "$DEST";
+}
+
+while true; do
+    read -p "Do you wish to backup externally? : " -r answer
+    case $answer in
+        [Yy]* ) use_rsync; break ;;
+        [Nn]* ) break ;;
+        * ) echo "Please answer Y or N.";;
+    esac
+done
+```
+
+This asks the user for the file path to copy the file to, where I put the mounted disk path, and then `rsync`s it to the destination. Used in this command are some useful flags which you might almost always use while using rsync interactively.
