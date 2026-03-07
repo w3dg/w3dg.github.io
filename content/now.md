@@ -5,6 +5,8 @@ draft = false
 title = 'Right Now'
 +++
 
+Page inspired by, https://nownownow.com/about.
+
 ## 9th Feb, 2025
 
 It's been almost a month into my first gig. I am surrounded by people in tech, constantly learning about the technologies in use, legacy systems, new systems, domain knowledge. I am trying to help out others wherever I can and learning from others. As I always believe, learning is the way forward and one can never learn everything. I try to be humble, explain others what I know and do not hesitate to learn what I don't.
