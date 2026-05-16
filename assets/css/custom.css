@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "Roboto";
     src: url("/fonts/Roboto-VariableFont.ttf") format("truetype");
 }
@@ -7,7 +7,7 @@
     font-family: "Roboto Serif";
     src: url("/fonts/RobotoSerif-VariableFont_GRAD,opsz,wdth,wght.ttf")
         format("truetype");
-}
+}*/
 
 @font-face {
     font-family: "Roboto Mono";
@@ -15,13 +15,13 @@
 }
 
 :root {
-    --serif: "Roboto Serif", serif;
-    --sans: "Roboto", sans-serif;
+    --serif: "Crimson Text", serif;
+    --sans: "Source Sans 3", sans-serif;
     --mono: "Roboto Mono", monospace;
 }
 
 html {
-    font-family: var(--serif);
+    font-family: var(--sans);
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -40,6 +40,7 @@ html {
 
 :is(blockquote) {
     font-family: var(--serif);
+    font-size: 1.2rem;
 }
 
 :is(pre, code) {
