@@ -4,15 +4,21 @@ draft = false
 title = 'CV'
 +++
 
+## Experience
+
+**CME Group**
+- Software Engineer I _(June 2026 - Present)_
+- Software Engineer Intern _(Jan - May 2026)_
+
 ## Education
 
 **Kalinga Institute of Industrial Technology**
 
-B.Tech in Computer Science and Engineering  _Sep 2022 - June 2026(expected)_
+B.Tech in Computer Science and Engineering  _June 2026_
 
 **St Joan's School**
 
-12th ISC PCM with Computer Science, 10th ICSE
+12th ISC PCM with Computer Science _(2022)_, 10th ICSE _(2020)_
 
 ---
 
