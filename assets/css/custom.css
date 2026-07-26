@@ -1,8 +1,8 @@
 :root {
-    --font: "Geist Mono", monospace;
+    --font: "IBM Plex Sans", sans-serif;
     --serif: var(--font);
     --sans: var(--font);
-    --mono: var(--font);
+    --mono:  "Inconsolata", monospace;
 }
 
 html {

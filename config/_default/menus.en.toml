@@ -37,7 +37,7 @@
 
 [[main]]
  name = "Other"
- weight = 80
+ weight = 200
 
 [[main]]
  name = "Thoughts"
@@ -53,15 +53,14 @@
 
 [[main]]
  name = "Guides"
- parent = "Other"
+ # parent = "Other"
  pageRef = "guides"
- # weight = 20
+ weight = 100
 
 [[main]]
- name = "Papershelf"
- parent = "Other"
- pageRef = "papershelf"
- # weight = 20
+ name = "Reading"
+ pageRef = "reading"
+ weight = 120
 
 # [[main]]
 #  name = "example sub-menu 1"

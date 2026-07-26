@@ -4,4 +4,6 @@ draft = false
 title = 'Posts'
 +++
 
-[Guides](/guides) | [Thoughts](/thoughts)
+Browse through all posts.
+
+Also checkout - [Guides](/guides) | [Thoughts](/thoughts) | [Reading](/reading)
