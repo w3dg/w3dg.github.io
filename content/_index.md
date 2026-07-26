@@ -7,5 +7,5 @@ I like documenting my journey as much as living it — you can check out what I'
 </p>
 
 <p style="text-wrap:balance">
-To get in touch, visit the social media links above or the <a href="/contact">contact</a> page. Let's connect.
+To get in touch, check out the social links above or head over to the <a href="/contact">contact</a> page.
 </p>

@@ -4,8 +4,10 @@ draft = false
 title = 'Contact Me'
 +++
 
-You can contact me through the socials listed on the [homepage](/) or at the end of this page.
+You can reach me through the socials linked on the [homepage](/), or via email below.
 
-If you have something official to say, please email me. I'll usually respond within a few days or earlier depending on my schedule.
+For anything official, LinkedIn or e-mail is best — I'll usually reply within a few days, sometimes sooner depending on how busy things are.
 
-For normal chit-chat or semi-formal things, connecting over social media is fine. I'd look forward to meeting you!
+w3dg [at] duck [dot] com
+
+For casual chats or semi-formal stuff, social media works great. Looking forward to connecting!
