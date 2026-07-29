@@ -48,7 +48,7 @@ worsen. I am trying to take care over the past few days and be conscious about w
 I&apos;ve been trying to read more technical books and articles. I can somewhat keep up with articles as
 they are fairly short but I think I have decreased my focus span for books.
 
-Currently I want to learn more about system design and architecture.Of course the famous book is{ " " }
+Currently I want to learn more about system design and architecture. Of course the famous book is
 <span className="italic">Designing Data-Intensive Applications</span> by Martin Kleppmann. However I am
 trying to ease into the topics with Mikito Takada's [Distributed Systems for fun and profit](https://book.mixu.net/distsys/).
 
