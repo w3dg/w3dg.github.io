@@ -22,7 +22,7 @@ workers, intermediate files, reduce workers, and final output files." />
  
 > The article below and the code is written by looking at the lab requirements as per [MIT 6.824's Lab 1](https://pdos.csail.mit.edu/6.824/labs/lab-mr.html). You can find the original MapReduce Paper [here](http://research.google.com/archive/mapreduce-osdi04.pdf). A helpful lecture video from the same MIT course is on [YouTube](https://www.youtube.com/watch?v=cQP8WApzIQQ&t=3004s&pp=ygUNbWFwcmVkdWNlIG1pdA%3D%3D). A helpful Computerphile video on the same topic is also on [YouTube](https://www.youtube.com/watch?v=cvhKoniK5Uo).
 
-A crude and simple implentation using Go channels is here, however the original problem set goes about implenting it using IPC fasion using RPC to communicate between workers.
+A crude and simple implementation using Go channels is here, however the original problem set goes about implementing it using IPC fashion using RPC to communicate between workers.
 
 MapReduce consists of the following programming model:
 
@@ -37,7 +37,7 @@ With this programming model, several tasks that deal with distributed and large 
 
 We can model this as reading the contents of the document and emitting `1` for each time a word is encountered.
 
-On the reducer side, we can group the values by the word from the document (the `key`) and sum up the number of occurences.
+On the reducer side, we can group the values by the word from the document (the `key`) and sum up the number of occurrences.
 
 <details>
 <summary>Pseudocode</summary>
@@ -164,7 +164,7 @@ for _, f := range args {
 }
 ```
 
-We expect to get back some data about the words and their count of occurences. This can be modelled using a map. We can pass the result back when we are done reducing over all the data.
+We expect to get back some data about the words and their count of occurrences. This can be modelled using a map. We can pass the result back when we are done reducing over all the data.
 
 ```go
 resultChan := make(chan map[string]int)

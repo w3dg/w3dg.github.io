@@ -7,7 +7,7 @@ summary = 'Taking backups of my machine with help from a script'
 tags = ['backups', 'mac', 'linux', 'shell scripting']
 +++
 
-I keep a backup somewhat regularly and especially when I want to wipe and reinstall my OS once in a while (although it\'s very rare, and mostly I stick to Ubuntu distributions).
+I keep a backup somewhat regularly and especially when I want to wipe and reinstall my OS once in a while (although it\'s rare, and mostly I stick to Ubuntu distributions).
 
 One issue that I have when I backup, is that the file permissions, get lost when I copy them to my 1TB Seagate HDD which is formatted with ExFAT as I want it to show up on both Windows and Linux and all others alike.
 
@@ -72,7 +72,7 @@ Let's try this out.
 
 Here I ignore [updog2](https://pypi.org/project/updog2/), which is my local installation of a more maintained version of updog which I sometimes use to host my local computer and access on my phone or other local devices.
 
-A simple search on PyPI also showed [updog3](https://pypi.org/project/updog3/), i might look that up later.
+A search on PyPI also showed [updog3](https://pypi.org/project/updog3/), i might look that up later.
 
 ```bash
 BACKUP=backup-test-$(date +%FT%H:%M:%S).tar.gz
@@ -103,7 +103,7 @@ Okay it completed to give this:
 ```
 -rw-rw-r-- 1 dg dg 11327475 Jan 19 00:22 backup-test-2025-01-19T00-22-59.tar.gz
 ```
-Okay copying it to my HDD and back again clearly messed up my
+Okay, copying it to my HDD and back again clearly messed up my
 permissions (notice all the executable bits and stuff)
 
 ```
@@ -124,7 +124,7 @@ drwxr--r--  4 dg dg     4096 Jan 11 17:33 Eisvogel-3.0.0
 drwxr--r--  2 dg dg     4096 Jan  1 22:41 testpaper
 ```
 
-To further encrypt stuff which is possibly wanted, we can use GPG as a handy tool for encryption:
+To further encrypt stuff which is possibly wanted, we can use `gpg` as a handy tool for encryption:
 
 ```
 gpg --symmetric --cipher-algo AES256 $BACKUP
@@ -143,7 +143,7 @@ Decrypting the encrypted archive with gpg:
 gpg --output destination --decrypt sourcefile.gpg
 ```
 
-So for example on my archive
+For example on my archive,
 
 ```bash
 $ EXTRACTED=backup-test-2025-01-19T00-34-31.tar.gz
@@ -160,7 +160,7 @@ tar xvf $EXTRACTED
 
 ## `rsync` it over to external source
 
-It is very likely that you'll store backups on a separate disk. Otherwise what is good of that backup? If your drive fails the backup will go with it.
+It is likely that you'll store backups on a separate disk. Otherwise what is good of that backup? If your drive fails the backup will go with it.
 
 In addition to all that steps above, I use `rsync` to copy over the backup file to an external drive which I mount.
 

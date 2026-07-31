@@ -11,13 +11,13 @@ tags = ['computing', 'abstraction']
 
 ## Abstractions are everywhere!
 
-Almost everyday as i sit down on the computer, I think to myself that what have we made possible as a human race. We ultimately convinced some metal (silicon) to work at our will and do complex things for us. It has enabled us to have our own world digitally, online and communicate to each other with nothing but some high and low voltages. A very powerful, mminiature computer is now in everybody\'s pocket and has become almost like a native organ to our body and we feel incomplete without it.
+Almost everyday as i sit down on the computer, I think to myself that what have we made possible as a human race. We ultimately convinced some metal (silicon) to work at our will and do complex things for us. It has enabled us to have our own world digitally, online and communicate to each other with nothing but some high and low voltages. A very powerful, miniature computer is now in everybody\'s pocket and has become almost like a native organ to our body and we feel incomplete without it.
 
-But here\'s the thing, most of the times you **don\'t** think about this very fact. You dont think at this deep of a level. You probably just want to get things done and at last edit that word file to finish your essay while listening to music in the background and relax on a fine Sunday afternoon.
+But here\'s the thing, most of the times you **don\'t** think about this very fact. You don't think at this deep of a level. You probably just want to get things done and at last edit that word file to finish your essay while listening to music in the background and relax on a fine Sunday afternoon.
 
 ## A lot of things do happen but you don\'t feel it
 
-A lot of things happen \"under the hood\" and most of the time its meant for you to not feel it. For example, you don\'t think about the car internals until something breaks down. You dont think about how your computer works very often unless you dig deep and get into the weeds. 
+A lot of things happen \"under the hood\" and most of the time its meant for you to not feel it. For example, you don\'t think about the car internals until something breaks down. You don't think about how your computer works very often unless you dig deep and get into the weeds. 
 
 A bookish definition for abstraction from object-oriented programming is to *hide all the unnecessary details and expose only necessary ones.*
 
@@ -35,20 +35,20 @@ When we need to switch processes, we can save all data about one process, someti
 
 ## Memory and Security
 
-While reading and writing to files and memory it must go through the eyes of the OS. What if some offending (or malicious) program were to get hold of a *\"protected\"* file (protections are again conceptual) or some other processes\' memory and cause havoc there? **What if the other process was the OS itself?** Then it would be *really, really* bad if the kernel memory is corrupted. We also virtualise memory by making the process seem like that it has the entirety of memory to itself however its not and mapped to some physical memory. We could implement sharing of data between programs if both progams can talk to the same physical
+While reading and writing to files and memory it must go through the eyes of the OS. What if some offending (or malicious) program were to get hold of a *\"protected\"* file (protections are again conceptual) or some other processes\' memory and cause havoc there? **What if the other process was the OS itself?** Then it would be *really, really* bad if the kernel memory is corrupted. We also virtualise memory by making the process seem like that it has the entirety of memory to itself however its not and mapped to some physical memory. We could implement sharing of data between programs if both can talk to the same physical
 memory but different virtual memory from their point of view.
 
-The OS takes care of all of this by providing a unified view of the system to the processes and handling all the ***priveleged*** requests through a **system call** from the process which lets it intervene **like a man in the middle** and either allow or disallow stuff from happening.
+The OS takes care of all of this by providing a unified view of the system to the processes and handling all the ***privileged*** requests through a **system call** from the process which lets it intervene **like a man in the middle** and either allow or disallow stuff from happening.
 
 ---
 
 ## Abstractions - are you convinced?
 
-So yeah it seems like in whatever you do, you\'re probably getting lied to in the face but thats for the own good. Sometimes we do not want to deal with the details. Developers will make abstractions all the time, whether it be simple extracting away code to a function or reusing that function over again, or create new structures that in the very same way do some **magical** things that we do not need to understand, just use.
+So yeah, it seems like in whatever you do, you\'re probably getting lied to in the face but that's for the own good. Sometimes we do not want to deal with the details. Developers will make abstractions all the time, whether it be simply extracting away code to a function or reusing that function over again, or create new structures that in the very same way do some **magical** things that we do not need to understand, just use.
 
-Think of hosted deployment services - you just attach the git repo or upload your code and its there online! Within seconds! With a domain and a SSL Certificate so that its HTTPS as well! That wouldn\'t be a lot of pain to setup but its nice that theres this service that does it for you! Okay lets go into the classic example of a library, you can just import it and start using it, without thinking about the implementation or how it works under the hood. Its a good thing that it exists, and can be used by others unless you feel the need to pry it open.
+Think of hosted deployment services - you just attach the git repo or upload your code and its there online! Within seconds! With a domain and a SSL Certificate so that its HTTPS as well! That wouldn\'t be a lot of pain to setup but its nice that there's this service that does it for you! Okay lets go into the classic example of a library, you can just import it and start using it, without thinking about the implementation or how it works under the hood. Its a good thing that it exists, and can be used by others unless you feel the need to pry it open.
 
-You probably dont go into your local grocery store or local market and think what pains and conditions they had to endure to bring the product here or what stages and transportation the product has undergone, it is all presented in a nice package.
+You probably don't go into your local grocery store or local market and think what pains and conditions they had to endure to bring the product here or what stages and transportation the product has undergone, it is all presented in a nice package.
 
 ## How much abstraction is good?
 
@@ -64,7 +64,7 @@ And here is an interesting take on it, taken from the links in [this answer](htt
 
 ## "It is always possible to add another level of indirection."
 
-And hence the ultimate decision depends upon the usage, experience and seeing the overall benefit that it would have in the long run. Whether it would be feasible or not to build that extra abstraction layer or that extra tool that provides the abstraction by automation and reducing workload (presumably), is a burning question. [Here is another excerpt](https://thorstenball.com/blog/2020/08/25/but-does-it-help-you-ship/) regarding these **\"toolsmiths\"** who like to contribute to the ever growing internal toolchain.
+And hence the ultimate decision depends upon the usage, experience and seeing the overall benefit that it would have in the long run. Whether it would be feasible or not to build that extra abstraction layer or that extra tool that provides the abstraction by automation and reducing workload (presumably), is a question. [Here is another excerpt](https://thorstenball.com/blog/2020/08/25/but-does-it-help-you-ship/) regarding these **\"toolsmiths\"** who like to contribute to the ever growing internal toolchain.
 
 > If what I consider working on is not the thing we want to ship itself, but lies in the vast grey area of software projects where I could write code all day long without the user ever noticing, this question helps me decide whether to drop it or invest some time in it - *does it help me ship?*
 >

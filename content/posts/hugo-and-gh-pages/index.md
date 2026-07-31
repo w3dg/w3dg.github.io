@@ -25,7 +25,7 @@ Recently as I was looking around on the Internet, I came across some of the note
 > What is likely to remain are domains like `GitHub.io` that millions of people depend on being there for as long as GitHub exists. There is zero practical advantage over the several domains that are from services that are completely and perpetually free (like `github.io`).
 > [Excerpt from the article here](https://rwxrob.GitHub.io/autodidactic/#_knowledge_management:~:text=What%20is%20likely%20to%20remain%20are%20domains%20like%20github.io%20that%20millions%20of%20people%20depend%20on%20being%20there%20for%20as%20long%20as%20GitHub%20exists.)
 
-There are some good solutions for this type of knowledge management. I will list some that I had looked into before:
+Some good solutions for this type of knowledge management that I had looked into before:
 
 - [Quartz](https://quartz.jzhao.xyz) and their workflow with [Obsidian](https://obsidian.md/) with [Git](https://GitHub.com/Vinzent03/obsidian-git)
 - [Obsidian publish](https://obsidian.md/publiSsh)

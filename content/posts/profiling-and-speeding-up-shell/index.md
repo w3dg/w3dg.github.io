@@ -10,7 +10,7 @@ tags = ['dotfiles', 'shell scripting', 'zsh']
 
 The key thing which I have seen around if you are going to do anything performance related is, measurement. Make it a rule to not believe stuff about performance without the measurement about current and after states.
 
-Here I was a bit unhappy with my shell startup speed which was not terribly bad but at times when i need something quick, i would spawn a new terminal tab or a pane and wait for the prompt to come. It didnt take eternity but it was just enough to break the flow of the fingers when you are in speed.
+Here I was a bit unhappy with my shell startup speed which was not terribly bad but at times when i need something quick, i would spawn a new terminal tab or a pane and wait for the prompt to come. It didn't take eternity but it was just enough to break the flow of the fingers when you are in speed.
 
 I came across [this post](https://ellie.wtf/notes/profiling-zsh) from [Ellie Huxtable](https://ellie.wtf/) about profiling zsh. She also had written about kind of the same thing. This afternoon i decided to tackle this to some extent.
 
@@ -71,7 +71,7 @@ One difference was that fnm didn't recognize tags like "latest" or "lts" (or may
 fnm ls-remote | tail -1 | tr -d v | cut -d. -f1
 ```
 
-I installed the latest version with fnm. Not to say now when it works, I have lost my npm global packages which I had installed. No trouble, I installed them from my dotfiles config. Aaaand now its time to actually see what it brought to the table.
+I installed the latest version with fnm. Not to say now when it works, I have lost my npm global packages which I had installed. No trouble, I installed them from my dotfiles config. And now its time to actually see what it brought to the table.
 
 ## Trying it out (and measure again)
 
@@ -79,7 +79,7 @@ Here is an updated timing output:
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/77d53123-521a-49c2-9705-9ba491704461_1271x764.png)
 
-It now takes **\~0.2s** ! Thats a massive improvement of \~**8x**!
+It now takes **\~0.2s** ! That' s a massive improvement of \~**8x**!
 
 Opening up new shells is a breeze now. I can type as soon as I get the
 focus of the new shell. Everything's loaded up already, all the configs,

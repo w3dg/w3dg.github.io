@@ -58,7 +58,7 @@ bind '"\e[B": history-search-forward'
 
 These will allow you to press the up key after typing a command to search your history to let you see the previous ways you had used it which is useful if you forgot the certain way you used a command before.
 
-There are more, check out my dotfiles or anyone else's or research on the interet to find more!
+There are more, check out my dotfiles or anyone else's or research on the internet to find more!
 
 ### Useful functions
 
@@ -188,7 +188,7 @@ Some of the commands have modern replacements (mostly in rust these days) and so
 
 I set some of these as aliases to original commands as replacements. You can view them in my aliases [here](https://github.com/w3dg/dotfiles/blob/main/.bash/aliases.bash).
 
-Thats about it for the setup. I might later do a dev setup blog soon going over the tools and technologies I use.
+That's about it for the setup. I might later do a dev setup blog soon going over the tools and technologies I use.
 
 ### References
 

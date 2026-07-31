@@ -23,7 +23,7 @@ Here is a schematic of the keyboard.
 
 A couple of changes to notice are, in the top right corner, there was the `HOME` key, used to move the cursor to the beginning of the line (it still does). But it was with the `~` key, so it was chosen to use the `~` key to represent the home directory of the user. 
 
-A  practice in webservers, is to use a directory in the format of `~username` to represent the directory of that user, for eg. `~janedoe` would point to the web server directory for the user `janedoe` 
+A  practice in webservers, is to use a directory in the format of `~username` to represent the directory of that user, for e.g. `~janedoe` would point to the web server directory for the user `janedoe`   
 
 I think you can still see the webserver directory in the format of `~username` in some places, but it is not as common as it used to be, however a lot of academia websites for universities still use this format. 
 

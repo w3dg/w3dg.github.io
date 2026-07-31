@@ -15,7 +15,7 @@ function can call itself, and this is known as recursion.
 
 The most obvious next question is *for how many times?*
 
-Well, you see, until we don't want it to. Its upto us to set the
+Well, you see, until we don't want it to. Its up-to us to set the
 condition, the \"base case\" as we call it. Until the job is done.
 
 ## Why recursion?
@@ -36,7 +36,7 @@ Let us see some examples where recursion is used:
     Series](https://en.wikipedia.org/wiki/Fibonacci_sequence): This is a
     classic example as we add last two numbers in the series, but we can
     also call the same function for getting the last number itself.
-    Until, and here here comes the \*base case\*, we reach 1 or 0, we
+    Until, and here comes the \*base case\*, we reach 1 or 0, we
     are sure of the answer and stop recursing indefinitely.
 
 -   [Tree Traversals](https://en.wikipedia.org/wiki/Tree_traversal):

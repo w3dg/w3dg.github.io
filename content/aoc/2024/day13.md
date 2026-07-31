@@ -8,7 +8,7 @@ tags = ['linear algebra', 'advent of code']
 
 {{< katex >}}
 
-If you're not yet familiar with [Advent of Code](https://adventofcode.com/), it is a website where each year (since 2016) the creator [Eric Wastl](https://was.tl/), posts programming contest puzzles with a fun story from Dec 1st to 25th much like in an advent calendar fashion. Well, this year was no different and I convinced a few friends to also try the same out and they seem hooked. Apart from being a contest, it has a lovely story and aims to teach some new thing/concept through each puzzle and apply your knowledge to the puzzle at hand. So far I've came across a bit where my previous knowledge was helpful and i could modify/use standard techniques at the problem.
+If you're not yet familiar with [Advent of Code](https://adventofcode.com/), it is a website where each year (since 2016) the creator [Eric Wastl](https://was.tl/), posts programming contest puzzles with a fun story from Dec 1st to 25th much like in an advent calendar fashion. Well, this year was no different and I convinced a few friends to also try the same out and they seem hooked. Apart from being a contest, it has a lovely story and aims to teach some new thing/concept through each puzzle and apply your knowledge to the puzzle at hand. I've came across a bit where my previous knowledge was helpful and I could modify/use standard techniques at the problem.
 
 Coming to [Day 13](https://adventofcode.com/2024/day/13) of the challenge, where the data given is like this:
 
@@ -120,16 +120,16 @@ This same operation is taken care of by `numpy` for us in the `numpy.linalg` mod
 soln = np.linalg.solve(M, R)
 ```
 
-There are a few modifications to be made that are the constraints of the current AoC ( Advent of Code) problem.
+A few modifications have to be made that are the constraints of the current AoC ( Advent of Code) problem.
 
 > The solution must be in whole integers, since we cannot push a button for a fractional amount. The solution would then need to rounded off.
 
-So we can use the `rint` function that will round our array elements to integers.
+We can use the `rint` function that will round our array elements to integers.
 ```python
 soln = np.rint(np.linalg.solve(M, R))
 ```
 
-This will solve the problem, but now we might have introduced some issues. You see, the fractional values will work absolutely for the equations. But after rounding off, if the values were not integral to begin with, they will get altered and thata does not satisfy the  problem anymore. We thus can implement a cross check to verify that it still satisfies our `R` matrix.
+This will solve the problem, but now we might have introduced some issues. You see, the fractional values will work absolutely for the equations. But after rounding off, if the values were not integral to begin with, they will get altered and that does not satisfy the  problem anymore. We thus can implement a cross check to verify that it still satisfies our `R` matrix.
 
 ```python
 if np.all(M @ soln == R):
@@ -140,19 +140,19 @@ Two things to unpack here, the special `@` is provided/overloaded by numpy to pe
 
 For adding to the solution, we are told to calculate the *cost* which is just 3 times the button A and 1 times the button B that we push and as many tokens are spent.
 
-We repeat the above for each machine in the input. Calculate the solutions using matrix inverse, round the values, cross-check to see if that still satisies, and then add to the running total.
+We repeat the above for each machine in the input. Calculate the solutions using matrix inverse, round the values, cross-check to see if that still satisfies, and then add to the running total.
 
 #### That gives us the answer to part 1 of the puzzle.
 
 ### Now onto part 2.
 
-Sometimes the part 2 can be very difficult to solve if the original solution to the problem was not modelled correctly and we could have to start over, or maybe find another way. We are expeced to modify our solution slightly so as that it solves both parts. It is like the customer changing requirements in future that will have to be accounted for in the system now.
+Sometimes the part 2 can become very difficult to solve if the original solution to the problem was not modelled correctly and we could have to start over, or maybe find another way. We are expected to modify our solution slightly so as that it solves both parts. It is like the customer changing requirements in future that will have to be accounted for in the system now.
 
 In this case, we are told that the actual prizes are off by **10000000000000** and thus the real values for the example above is `X=10000000008400, Y=10000000005400. `
 
 What do we do now to account for this change?
 
-Thankfully, we already have the system in place! We just need to offset our `r1` and `r2` values to account for that correction and let our solution run as before.
+Guess what, we already have the system in place! We just need to offset our `r1` and `r2` values to account for that correction and let our solution run as before.
 ```python
 CORRECTION = 10000000000000
 R2 = np.array([px + CORRECTION, py + CORRECTION])

@@ -3,7 +3,7 @@ Hi 👋 I'm a software engineer who enjoys building things and writing about wha
 </p>
 
 <p style="text-wrap:balance">
-I like documenting my journey as much as living it — you can check out what I'm currently focused on on my <a href="/now">now</a> page, or dig through my wiki and guides if you want the deeper cuts.
+I like documenting my journey as much as living it — you can check out what I'm currently focused on my <a href="/now">now</a> page, or dig through my wiki and guides if you want the deeper cuts.
 </p>
 
 <p style="text-wrap:balance">

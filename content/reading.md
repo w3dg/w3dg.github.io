@@ -8,13 +8,13 @@ summary = "Collection of Articles I recommend"
 
 > Blogroll _[(What is a blogroll?)](https://www.thoughtco.com/what-is-blogroll-3476580)_
 
-- Jim Nielsen's Blog https://blog.jim-nielsen.com/
-- matklad https://matklad.github.io/
-- Register Spill https://registerspill.thorstenball.com/
-- sean goedecke https://seangoedecke.com/
-- Steph Ango https://stephango.com/
-- Terrible Software https://terriblesoftware.org/
-- Sophie Alpert http://sophiebits.com/
+- Jim Nielsen's Blog - https://blog.jim-nielsen.com/
+- Matklad - https://matklad.github.io/
+- Register Spill - https://registerspill.thorstenball.com/
+- Sean Goedecke - https://seangoedecke.com/
+- Steph Ango - https://stephango.com/
+- Terrible Software - https://terriblesoftware.org/
+- Sophie Alpert - http://sophiebits.com/
 
 > I frequently lurk on HackerNews and Lobste.rs
 

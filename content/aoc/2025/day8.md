@@ -9,7 +9,7 @@ tags = ['advent of code', 'union find', 'data structures']
 
 The Elves try to figure out which **junction boxes** to _connect_ so that electricity can reach every junction box.
 
-So we are given with an input like the following list, which are a collection of `X,Y,Z` points in space.
+We are given with an input like the following list, which are a collection of `X,Y,Z` points in space.
 
 ```
 162,817,812
@@ -22,7 +22,7 @@ So we are given with an input like the following list, which are a collection of
 425,690,689
 ```
 
-We are told to use stright line (i.e. Euclidean) distance between the junction boxes as a metric to choose which two boxes to connect. That is all fair and good. The shorter distance will be connected first.
+We are told to use straight line (i.e. Euclidean) distance between the junction boxes as a metric to choose which two boxes to connect. That is all fair and good. The shorter distance will be connected first.
 
 We can get the straight line distances between the pairs with the following iteration over the lines.
 
@@ -277,4 +277,3 @@ if aFind == bFind {
 ```
 
 For the entire code, you can [visit](https://GitHub.com/w3dg/advent-of-code/blob/main/2025/day8/x.go) the solutions on my [GitHub](https://github.com/w3dg).
-
