@@ -1,7 +1,6 @@
 :root {
-    --font: "Lato", sans-serif;
-    --serif: var(--font);
-    --sans: var(--font);
+    --serif: "Merriweather", serif;
+    --sans: "Merriweather Sans", sans-serif;
     --mono:   "Cousine", monospace;
 }
 
