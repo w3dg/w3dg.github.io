@@ -1,5 +1,5 @@
 <p style="text-wrap:balance">
-Hi 👋 I'm a software engineer who enjoys building things and writing about what I learn along the way. Alongside my day-to-day engineering work, I maintain a <a href="/posts">blog</a> where I share notes, references, and ongoing learnings, and I keep a public <a href="https://wiki.dgdev.me">wiki</a> as a living record of things I'm exploring. I'm also working on a set of <a href="/guides">guides</a> to help others pick up concepts I've had to learn the hard way.
+Hi 👋 I'm a software engineer who enjoys building things and writing about what I learn along the way. Alongside my day-to-day engineering work, I maintain a <a href="/posts">blog</a> where I share notes, references, and ongoing learnings, and I keep a public <a href="https://wiki.dgdev.fyi">wiki</a> as a living record of things I'm exploring. I'm also working on a set of <a href="/guides">guides</a> to help others pick up concepts I've had to learn the hard way.
 </p>
 
 <p style="text-wrap:balance">

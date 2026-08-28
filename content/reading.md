@@ -21,7 +21,7 @@ summary = "Collection of Articles I recommend"
 > Academic / Industry papers
 
 1. [MapReduce](https://pdos.csail.mit.edu/6.824/papers/mapreduce.pdf) - Fundamentals of distributed data processing.
-1. [Google File System](http://nil.csail.mit.edu/6.5840/2024/papers/gfs.pdf) - under the hood.
-1. [Kafka]() - Distributed messaging system.
-1. [Zookeeper]() - Wait free coordination service for other distributed systems.
-1. [Bluesky and the AT Protocol]() - Own your data.
+1. [Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf) - under the hood.
+1. [Kafka](https://notes.stephenholiday.com/Kafka.pdf) - Distributed messaging system, technically for log processing but anyway.
+1. [Zookeeper](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/zookeeper-wait-free-coordination-for-internet-scale-systems.pdf) - Wait free coordination service for other distributed systems.
+1. [Bluesky and the AT Protocol](https://arxiv.org/abs/2402.03239) - Own your data.

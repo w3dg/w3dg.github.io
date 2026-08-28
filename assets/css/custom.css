@@ -1,11 +1,14 @@
 :root {
-    --serif: "Merriweather", serif;
-    --sans: "Merriweather Sans", sans-serif;
-    --mono:   "Cousine", monospace;
+    --sans: "PT Sans", system-ui, ui-sans-serif, "Segoe UI", Roboto, sans-serif;
+    --mono: "PT Mono", ui-monospace, "Cascadia Code", "Source Code Pro", MenMonaco, Consolas, "Liberation Mono", monospace;
+}
+
+:is(code, pre, kbd, samp), .chroma, .commithash {
+    font-family: var(--mono);
 }
 
 html {
-    font-family: var(--serif);
+    font-family: var(--sans);
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -23,13 +26,10 @@ article :is(a):hover {
 }
 
 :is(blockquote) {
-    font-family: var(--serif);
+    font-family: var(--sans);
     font-style: initial;
 }
 
-:is(pre, code) {
-    font-family: var(--mono);
-}
 
 .article-content li {
     margin: 0.1rem;
@@ -37,4 +37,21 @@ article :is(a):hover {
 
 .article-content li p {
     margin: 0.8rem;
+}
+
+/* Target links that start with http:// or https:// but do NOT belong to your domain */
+:is(.article-content, footer) a[href^="http"]:not([href*="dgdev.fyi"]):not([href*="localhost"])::after {
+  content: " ↗";
+  font-family: inherit;
+  font-size: 0.85em;
+  display: inline-block;
+  margin-left: 0.15em;
+  opacity: 0.75;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Optional: Slight hover animation */
+:is(.article-content, footer) a[href^="http"]:not([href*="dgdev.fyi"]):not([href*="localhost"]):hover::after {
+  opacity: 1;
+  transform: translate(1px, -1px);
 }
