@@ -16,7 +16,7 @@ summary = "Collection of Articles I recommend"
 - Terrible Software - https://terriblesoftware.org/
 - Sophie Alpert - http://sophiebits.com/
 
-> I frequently lurk on HackerNews and Lobste.rs
+> I frequently lurk on [HackerNews](https://news.ycombinator.com) and [Lobste.rs](https://lobste.rs)
 
 > Academic / Industry papers
 

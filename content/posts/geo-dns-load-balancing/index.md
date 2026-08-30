@@ -6,10 +6,6 @@ summary = 'How Load Balancing with GeoDNS works to ensure speedy delivery.'
 tags = ['dns', 'geodns', 'load balancing']
 +++
 
-![](./lb.png)
-
-## Contents
-
 ## Introduction
 
 **Load balancing** is a technique to distribute workload incoming to a server across multiple servers. This is done typically for some reasons:

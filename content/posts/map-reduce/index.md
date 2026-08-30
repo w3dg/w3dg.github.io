@@ -12,13 +12,12 @@ tags = ['distributed systems', 'Map Reduce', 'Go']
 
 MapReduce is a programming model meant for large scale processing and generating of big datasets on a cluster in a parallel and distributed fashion. Several implementations of MapReduce are available, with Apache Hadoop being one of the most popular.
 
-<!-- <p>
+<p>
 <img src="./map-reduce-schematic-light.svg" class="block dark:hidden" alt="Schematic of the Map Reduce framework showing input data splits, map 
 workers, intermediate files, reduce workers, and final output files." />
 
 <img src="./map-reduce-schematic-dark.svg" class="hidden dark:block" alt="Schematic of the Map Reduce framework showing input data splits, map workers, intermediate files, reduce workers, and final output files." />
 </p>
- -->
  
 > The article below and the code is written by looking at the lab requirements as per [MIT 6.824's Lab 1](https://pdos.csail.mit.edu/6.824/labs/lab-mr.html). You can find the original MapReduce Paper [here](http://research.google.com/archive/mapreduce-osdi04.pdf). A helpful lecture video from the same MIT course is on [YouTube](https://www.youtube.com/watch?v=cQP8WApzIQQ&t=3004s&pp=ygUNbWFwcmVkdWNlIG1pdA%3D%3D). A helpful Computerphile video on the same topic is also on [YouTube](https://www.youtube.com/watch?v=cvhKoniK5Uo).
 
