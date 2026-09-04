@@ -1,9 +1,99 @@
-:root {
-    --sans: "PT Sans", system-ui, ui-sans-serif, "Segoe UI", Roboto, sans-serif;
-    --mono: "PT Mono", ui-monospace, "Cascadia Code", "Source Code Pro", MenMonaco, Consolas, "Liberation Mono", monospace;
+/* Go Regular */
+@font-face {
+  font-family: 'Go';
+  src: url('/fonts/Go-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-:is(code, pre, kbd, samp), .chroma, .commithash {
+/* Go Regular Italic */
+@font-face {
+  font-family: 'Go';
+  src: url('/fonts/Go-Regular-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Go Medium */
+@font-face {
+  font-family: 'Go';
+  src: url('/fonts/Go-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Go Medium Italic */
+@font-face {
+  font-family: 'Go';
+  src: url('/fonts/Go-Medium-Italic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Go Bold */
+@font-face {
+  font-family: 'Go';
+  src: url('/fonts/Go-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Go Bold Italic */
+@font-face {
+  font-family: 'Go';
+  src: url('/fonts/Go-Bold-Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Go Mono Regular */
+@font-face {
+  font-family: 'Go Mono';
+  src: url('/fonts/GoMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Go Mono Regular Italic */
+@font-face {
+  font-family: 'Go Mono';
+  src: url('/fonts/GoMono-Regular-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Go Mono Bold */
+@font-face {
+  font-family: 'Go Mono';
+  src: url('/fonts/GoMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Go Mono Bold Italic */
+@font-face {
+  font-family: 'Go Mono';
+  src: url('/fonts/GoMono-Bold-Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+    --sans: "Go", system-ui, ui-sans-serif, "Segoe UI", Roboto, sans-serif;
+    --mono: 'Go Mono', ui-monospace, "Cascadia Code", "Source Code Pro", MenMonaco, Consolas, "Liberation Mono", monospace;
+}
+
+:is(code, pre, kbd, samp), .chroma {
     font-family: var(--mono);
 }
 
