@@ -129,18 +129,24 @@ article :is(a):hover {
     margin: 0.8rem;
 }
 
-/* Target links that start with http:// or https:// but do NOT belong to your domain */
-:is(.article-content, footer) a[href^="http"]:not([href*="dgdev.fyi"]):not([href*="localhost"])::after {
-  content: " ↗";
-  font-family: inherit;
-  font-size: 0.85em;
+/* Targets external links while excluding relative links and specific internal domains */
+:is(.article-content, footer) a[href^="http"]:not([href*="dgdev.fyi"]):not([href*="localhost"]):not([href*="127.0.0.1"])::after {
+  content: "";
   display: inline-block;
-  margin-left: 0.15em;
-  opacity: 0.75;
+  width: 0.85em;
+  height: 0.85em;
+  margin-left: 0.25em;
+  vertical-align: middle;
+
+  /* SVG icon using current text color */
+  background-color: currentColor;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>') no-repeat center / contain;
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>') no-repeat center / contain;
+
+  opacity: 0.7;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-/* Optional: Slight hover animation */
 :is(.article-content, footer) a[href^="http"]:not([href*="dgdev.fyi"]):not([href*="localhost"]):hover::after {
   opacity: 1;
   transform: translate(1px, -1px);
