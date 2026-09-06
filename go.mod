@@ -2,4 +2,7 @@ module github.com/w3dg/w3dg.github.io
 
 go 1.25.4
 
-require github.com/nunocoracao/blowfish/v2 v2.106.0 // indirect
+require (
+	github.com/nunocoracao/blowfish/v2 v2.106.0 // indirect
+	github.com/nunocoracao/blowfish/v3 v3.6.0 // indirect
+)
