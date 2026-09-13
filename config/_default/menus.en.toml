@@ -36,28 +36,6 @@
    weight = 60
 
 [[main]]
- name = "Other"
- weight = 200
-
-[[main]]
- name = "Thoughts"
- parent = "Other"
- pageRef = "thoughts"
- # weight = 20
-
-[[main]]
- name = "Advent of Code"
- parent = "Other"
- pageRef = "aoc"
- # weight = 20
-
-[[main]]
- name = "Guides"
- # parent = "Other"
- pageRef = "guides"
- weight = 100
-
-[[main]]
  name = "Reading"
  pageRef = "reading"
  weight = 120

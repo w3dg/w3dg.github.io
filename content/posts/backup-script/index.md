@@ -70,9 +70,9 @@ tar -cvpzf $BACKUP \
 
 Let's try this out.
 
-Here I ignore [updog2](https://pypi.org/project/updog2/), which is my local installation of a more maintained version of updog which I sometimes use to host my local computer and access on my phone or other local devices.
+Here I ignore [updog2](https://pypi.org/project/updog2/), which is my local installation of a more maintained version of the `updog` utility which I sometimes use to host my local computer and access on my phone or other local devices.
 
-A search on PyPI also showed [updog3](https://pypi.org/project/updog3/), i might look that up later.
+A search on PyPI also showed [updog3](https://pypi.org/project/updog3/), I might look that up later.
 
 ```bash
 BACKUP=backup-test-$(date +%FT%H:%M:%S).tar.gz

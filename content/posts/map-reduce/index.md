@@ -90,7 +90,7 @@ reduce(key, line):
 
 ## My MapReduce Implementation in Go
 
-I took some time to write this simple model in Go. MapReduce is supposed to be a simple model to program and it should feel the same way while writing the code. I remember deleting the code I initially had as it was getting a bit complex and I felt it was unnecessary. Sometimes, simplicity is the key.
+I took some time to write this model in Go. MapReduce is supposed to be a simple model to program and it should feel the same way while writing the code. I remember deleting the code I initially had as it was getting a bit complex and I felt it was unnecessary. Sometimes, simplicity is the key.
 
 For this crude and simple map-reduce implementation, I had followed somewhat of the setup that is provided in [Lab 1 of MIT 6.824 problem set](https://pdos.csail.mit.edu/6.824/labs/lab-mr.html).
 
@@ -101,7 +101,7 @@ $ git clone git://g.csail.mit.edu/6.5840-golabs-2025 6.5840
 $ # a starter is under src/mr and src/mrapps
 ```
 
-Using that as a reference, I wrote some of my own simple implementation that does this architecturally the same. 
+Using that as a reference, I wrote some of my own implementation that does this architecturally the same. 
 
 They provide some text under the `data/` directory, to test your program against. In this case, there are a bunch of texts of classical stories which we can test against.
 
@@ -296,7 +296,7 @@ We can compare this with the total words output from `wc`.
 $ wc -w data/*.txt --total=only
 ```
 
-Looks like our modelling is correct and our simple implementation works.
+Looks like our modelling is correct and our implementation works.
 
 ```
 ~/c/m/g/mr main* % ./test-mr-wc.sh

@@ -1,6 +1,6 @@
 +++
 date = '2026-09-06 19:45:32+05:30'
-title = 'Reflections on how to feel more passionate and interested again'
+title = 'Reflections on how to feel more passionate and interested again in your craft'
 +++
 
 Recently, I watched this video that came across my feed "[WHY NOTHING FEELS INTERESTING ANYMORE (and how to fix it with neuroscience)
@@ -8,7 +8,7 @@ Recently, I watched this video that came across my feed "[WHY NOTHING FEELS INTE
 
 She explains that the main reason something gets us excited is because the activity causes dopamine in our brain to spike. That is also the reason why we might feel the opposite way at present.
 
-Repeated engagement in high dopamine content or activities that spikes it higher and higher can cause an overload to the brain. To maintain a particular level of dopamine, our body then lowers the amount of dopamine receptors that are active thus tackling the issue of high dopamine. However this is inherently the issue as now in an idle state we have less dopamine receptors than normal and start feeling low.
+Repeated engagement in high dopamine content or activities that spikes it higher and higher can cause an overload to the brain. To maintain a particular level of dopamine, our body then lowers the amount of dopamine receptors that are active thus tackling the issue of high dopamine. However, this is inherently the issue as now in an idle state we have less dopamine receptors than normal and start feeling low.
 
 **How to Fix It:**
 

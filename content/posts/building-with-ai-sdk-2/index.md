@@ -18,7 +18,7 @@ When building an agent for tasks like mathematical analysis or report generation
 
 ## Before we start using structured outputs
 
-Make sure that you use a model that supports structured outputs. Not all models have the same capabilites. See if your model supports **structured outputs** or the same under another name of **object generation**. 
+Make sure that you use a model that supports structured outputs. Not all models have the same capabilities. See if your model supports **structured outputs** or the same under another name of **object generation**. 
 
 I will be using Gemini's API with `gemini-1.5-flash `model. You can view their page on [AI Studio](https://aistudio.google.com/app/) how to get hands on an API key ( yes a free tier is available, and the model mentioned is free to use ).
 
@@ -130,8 +130,7 @@ const generateQuestions = async () => {
   console.log(JSON.stringify(questionData, null, 4));
 };
 ```
-F
-inally we get some answer that strictly adheres to the structure and can be reliably passed on to the front end to be shown in a UI and the user can then answer them and gain feedback as correct or wrong. This can mark the beginning of a helpful study assistant or a flashcards app sort of thingy!
+Finally we get some answer that strictly adheres to the structure and can be reliably passed on to the front end to be shown in a UI and the user can then answer them and gain feedback as correct or wrong. This can mark the beginning of a helpful study assistant or a flashcards app sort of thingy!
 ```json
 {
     "questions": [

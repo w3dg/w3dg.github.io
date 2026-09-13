@@ -6,7 +6,7 @@ summary = "We explore how to interact with LLMs programmatically through Vercel'
 tags = ['ai', 'llms', 'vercel']
 +++
 
-The [Vercel AI SDK](https://sdk.vercel.ai/) opens up exciting possibilities for building smarter and more interactive applications. Whether you\'re exploring AI-powered features or integrating seamless response streaming, this SDK has you covered. In this post, we'll dive into the basics of initializing the SDK, working with [Groq](https://groqcloud.com), although you can use sopmething more popular like OpenAI or Gemini, and demonstrating how to generate and stream responses effectively. Let\'s get started! 
+The [Vercel AI SDK](https://sdk.vercel.ai/) opens up exciting possibilities for building smarter and more interactive applications. Whether you\'re exploring AI-powered features or integrating seamless response streaming, this SDK has you covered. In this post, we'll dive into the basics of initializing the SDK, working with [Groq](https://groqcloud.com), although you can use something more popular like OpenAI or Gemini, and demonstrating how to generate and stream responses effectively. Let\'s get started! 
 
 ## Contents
 
@@ -16,7 +16,7 @@ The [Vercel AI SDK](https://sdk.vercel.ai/) opens up exciting possibilities for 
 npm i ai dotenv
 ```
 
-We\'ll also need a **provider** to talk to which will be hosting our LLM. There are many providers from OpenAI, Google, etc, with their own respective models.
+We\'ll also need a **provider** to talk to which will be hosting our LLM. Multiple providers are supported from OpenAI, Google, etc, with their own respective models.
 
 We\'ll be using [GroqCloud\'s](https://groq.com) offering for the model with a free plan. Grab your *API key* from the console. And install the corresponding provider -
 
@@ -26,7 +26,7 @@ npm i @ai-sdk/groq
 
 ### Handling Credentials
 
-We are going to read the contents in from a `.env` file, with the `dotenv` package we installed earlier. So in a file named `.env `paste the following: 
+We are going to read the contents in from a `.env` file, with the `dotenv` package we installed earlier. In a file named `.env` paste the following: 
 
 ```
 GROQ_API_KEY=<your_api_key_goes_here>

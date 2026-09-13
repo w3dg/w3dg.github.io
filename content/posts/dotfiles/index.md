@@ -22,7 +22,7 @@ I now primarily work on Linux. This was made when I was working on Windows. Alth
 
 As for the shell i am using `bash`. I am working on Windows for the while and the standard installation of <a href="https://git-scm.com/downloads" >Git Bash</a> or <a href="https://learn.microsoft.com/en-us/windows/wsl/about" >WSL</a> works fine for me. A guide to install WSL can be found from Microsoft <a href="https://learn.microsoft.com/en-us/windows/wsl/install" >here</a>. As well as i have picked up and learnt my way through bash and the command line in general and hence i stick to it.
 
-I have tried out <a href="https://zsh.sourceforge.io/" >ZSH</a> and <a href="https://ohmyz.sh/" >`oh-my-zsh`</a> and its great as well. Some suggestions are to use with <a href="https://github.com/zsh-users/zsh-autosuggestions" >zsh-autosuggestions</a> package and <a href="https://github.com/zsh-users/zsh-syntax-highlighting" >zsh-syntaxhighlighting</a> package.
+I have tried out <a href="https://zsh.sourceforge.io/" >zsh</a> and <a href="https://ohmyz.sh/" >`oh-my-zsh`</a> and its great as well. Some suggestions are to use with <a href="https://github.com/zsh-users/zsh-autosuggestions" >zsh-autosuggestions</a> package and <a href="https://github.com/zsh-users/zsh-syntax-highlighting" >zsh-syntaxhighlighting</a> package.
 
 ---
 
@@ -116,7 +116,7 @@ set output-meta on
 set convert-meta off
 ```
 
-Given all this custom settings and more you would obviously want to back them up and use it across machines or if you have a new machine.
+Given all this custom settings and more you would want to back them up and use it across machines or if you have a new machine.
 
 ---
 
@@ -139,7 +139,7 @@ done
 
 This code snippet above is a for loop in bash which loops through the given array of dotfiles and links them to the home directory.
 
-Given on linux, this works very fine.
+Given on linux, this works fine.
 
 So granted I'm using Git Bash on Windows, it should work on Windows as well right?
 
@@ -159,7 +159,7 @@ foreach ($element in $dotfiles) {
 
 ```
 
-This does the same thing and now the files are correctly linked to the other directory under version control. And that directory is very much my dotfiles repository.
+This does the same thing and now the files are correctly linked to the other directory under version control. And that directory is my dotfiles repository.
 
 ---
 

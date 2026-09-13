@@ -1,6 +1,6 @@
 +++
 date = '2025-12-12T20:37:12+05:30'
-title = 'Day 8, 2025: The Playground'
+title = 'Advent of Code, Day 8, 2025: The Playground'
 summary = "Let us connect some boxes together."
 tags = ['advent of code', 'union find', 'data structures']
 +++

@@ -1,7 +1,8 @@
 .PHONY: serve content commit-and-deploy theme-update clean lint
 
 serve:
-	hugo server -D
+	@# hugo server -D
+	hugo server --disableFastRender --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313 -D
 
 content:
 	@echo Try any of the following -
@@ -21,9 +22,12 @@ clean:
 	rm -rf public resources/ &2>/dev/null
 	# delete public and generated resources folder if there, it will be generated on the actions.
 
-lint: clean
+lint-full:
 	# vale sync
 	fd --full-path './content' -e md  | xargs vale
+
+lint:
+	vale $(f)
 
 help:
 	@echo "make serve           - Run the local hugo server in draft mode"
@@ -31,5 +35,6 @@ help:
 	@echo "make push-and-deploy - Push final committed code to Github for deployment"
 	@echo "make theme-update    - Update theme with hugo submodule"
 	@echo "make clean           - Clean the public folder and resources generated folders"
-	@echo "make lint            - Run Vale with defined settings for linting"
+	@echo "make lint-full       - Run Vale with defined settings for linting in all dirs"
+	@echo "make lint f=file.md  - Run Vale with defined settings for linting the file specfied"
 	@echo "make help            - Display this help message"

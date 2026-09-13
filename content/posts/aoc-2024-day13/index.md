@@ -1,7 +1,7 @@
 +++
 math = true
 date = '2024-12-27T12:55:42+05:30'
-title = 'Day 13, 2024: Claw Contraption'
+title = 'Advent of Code, Day 13, 2024: Claw Contraption'
 summary = 'Solving Advent of Code Day 13 with Linear Algebra and Numpy'
 tags = ['linear algebra', 'advent of code']
 +++
