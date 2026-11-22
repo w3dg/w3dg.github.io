@@ -10,6 +10,17 @@ title = 'CV'
 - Software Engineer I _(June 2026 - Present)_
 - Software Engineer Intern _(Jan - May 2026)_
 
+## Technical Skills
+
+- **Languages**: Java, TypeScript, JavaScript, Go, Python, SQL, C, HTML/CSS
+- **Frameworks & Libraries**: React.js, Next.js, Node.js, Express.js, TailwindCSS, Bootstrap
+- **Databases & ORMs**: PostgreSQL, MongoDB, Prisma, Drizzle
+- **Cloud & DevOps**: Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, Argo, Chef
+- **Tools & Systems**: Linux/Unix, Git, Bash/Shell Scripting, Splunk
+
+Here is my [latest resume](https://drive.google.com/file/d/1t1gQo1mUIFVNe0R2fT0ejIUoQETyG3eg/view)
+
+
 ## Education
 
 **Kalinga Institute of Industrial Technology**
@@ -26,14 +37,3 @@ B.Tech in Computer Science and Engineering  _June 2026_
 
 See my [works](/work) page and [GitHub](https://GitHub.com/w3dg) for list of projects.
 
----
-
-## Technical Skills
-
-- Programming Languages: _TypeScript, JavaScript, Python, SQL, Java, C_
-- Technologies: _React.js, Next.js, Node.js, Express.js, Bootstrap, TailwindCSS, ORMs, PostgreSQL, MongoDB, Docker_
-- Tools/Others: _Git, Linux, Bash scripting_
-
-Here is my [latest resume](https://drive.google.com/file/d/1zAPcy8L3SI-mhGGflc3lLaA7l44-kDF-/view)
-
----
